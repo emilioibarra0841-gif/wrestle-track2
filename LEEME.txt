@@ -1,0 +1,20 @@
+WRESTLE TRACK - primera versión
+
+ARCHIVOS
+- index.html: aplicación.
+- manifest.webmanifest: configuración instalable.
+- sw.js: caché para uso sin conexión después de la primera visita.
+- icon.svg: icono.
+
+PARA PROBAR
+Abre index.html en un navegador moderno. Los registros se guardan en el almacenamiento local del navegador.
+
+PARA INSTALAR EN IPHONE
+La instalación como app (Añadir a pantalla de inicio) requiere publicar estos archivos en un hosting HTTPS.
+1. Sube los cuatro archivos a un hosting estático HTTPS (por ejemplo, GitHub Pages o Netlify).
+2. Abre la dirección publicada en Safari en el iPhone.
+3. Pulsa Compartir > Añadir a pantalla de inicio.
+4. Para mayor seguridad, exporta respaldos JSON desde Ajustes.
+
+NOTA
+Esta app no sustituye consejo médico. No determina si es seguro entrenar. Si hay dolor de pecho, falta de aire intensa/inusual, desmayo o dolor fuerte, detén la actividad y busca atención médica.
